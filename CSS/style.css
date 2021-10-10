@@ -14,7 +14,6 @@
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px;
-    text-decoration: line-through;
     text-transform: uppercase;
 }
 
@@ -34,3 +33,22 @@ ul {
 ol {
     list-style-type: decimal-leading-zero;
 }
+
+ .table {
+     width: 100%;
+    border: 1px dashed #000;
+     border-collapse: collapse;
+     table-layout: fixed;
+}
+ .table th {
+     padding: 5px 10px;
+     text-align: left;
+     color: #d6200f;
+ }
+ .table td {
+     padding: 5px 10px;
+     border: 1px dashed #000;
+ }
+ .table tfoot td {
+     text-align: right;
+ }
