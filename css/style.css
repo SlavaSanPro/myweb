@@ -26,7 +26,7 @@
 
 ul {
     list-style-type: square;
-    list-style-position: inside;
+    list-style-position: outside;
     color: blue;
 }
 
@@ -40,15 +40,35 @@ ol {
      border-collapse: collapse;
      table-layout: fixed;
 }
+
  .table th {
      padding: 5px 10px;
      text-align: left;
+
      color: #d6200f;
  }
+
  .table td {
      padding: 5px 10px;
      border: 1px dashed #000;
  }
+
  .table tfoot td {
      text-align: right;
+ }
+
+ .text-red {
+     display: inline-block;
+     width: 100px;
+
+
+     color: #d6200f;
+     font-weight: 700;
+     font-style: italic;
+ }
+
+ .page {
+     width: 900px;
+     margin-left: auto;
+     margin-right: auto;
  }
