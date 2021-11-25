@@ -3,11 +3,11 @@
     font-size: 15px;
      line-height: 1.5;
      color: #333;
-}
 
- p {
-     text-indent: 20px;
- }
+     background-color: #eee;
+     background-image: url("../img/star.jpeg");
+     background-size: 200px 200px;
+}
 
 .title {
     font-family: Tahoma, sans-serif;
@@ -60,8 +60,6 @@ ol {
  .text-red {
      display: inline-block;
      width: 100px;
-
-
      color: #d6200f;
      font-weight: 700;
      font-style: italic;
@@ -71,4 +69,35 @@ ol {
      width: 900px;
      margin-left: auto;
      margin-right: auto;
+ }
+
+
+ /* Post */
+ .post {
+     width: 600px;
+     height: 300px;
+     padding: 15px 25px;
+     margin-left: auto;
+     margin-right: auto;
+
+     border: 1px solid #333333;
+     background-color: #fff;
+     background-image: url("../img/space1.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .post-title {
+     margin-top: 0;
+     margin-bottom: 20px;
+     color: yellow;
+ }
+
+ .post-text p {
+     color: white;
+ }
+
+ .post-text p {
+     margin: 0 0 10px 0;
  }
