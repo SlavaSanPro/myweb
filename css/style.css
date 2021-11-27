@@ -4,8 +4,7 @@
      line-height: 1.5;
      color: #333;
 
-     background-color: #eee;
-     background-image: url("../img/star.jpeg");
+     background: #eee url("../img/star.jpeg");
      background-size: 200px 200px;
 }
 
@@ -77,15 +76,12 @@ ol {
      width: 600px;
      height: 300px;
      padding: 15px 25px;
-     margin-left: auto;
-     margin-right: auto;
+     margin: 0 auto 20px;
 
      border: 1px solid #333333;
-     background-color: #fff;
-     background-image: url("../img/space1.jpeg");
-     background-repeat: no-repeat;
+
+     background: url("../img/space1.jpeg") no-repeat center;
      background-size: cover;
-     background-position: center;
  }
 
  .post-title {
@@ -100,4 +96,15 @@ ol {
 
  .post-text p {
      margin: 0 0 10px 0;
+ }
+
+
+ /* Gradient */
+ .gradient {
+     width: 600px;
+     height: 300px;
+     margin: 0 auto;
+
+     /*background-image: linear-gradient(to right, #fff 20%, #333 20%, #333 40%, #fff 40%, #fff 60%, #333 60%, #333 80%, #fff 80%);*/
+     background-image: radial-gradient(circle, #fff, #333);
  }
