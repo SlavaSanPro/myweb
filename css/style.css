@@ -132,6 +132,12 @@ ol {
      font-size: 15px;
  }
 
+ .form-input:focus {
+     outline: none;
+
+     background-color: #7ee1e1;
+ }
+
  .textarea {
      width: 200px;
      height: 150px;
@@ -143,5 +149,52 @@ ol {
      font-size: 15px;
  }
 
+ .textarea:focus {
+     outline: none;
+
+     background-color: #7ee1e1;
+ }
+
+ .link {
+     color: #4747E7FF;
+     text-decoration: none;
+ }
+
+ .link:visited {
+     color: #813ad9;
+ }
+
+ .link:hover {
+     text-decoration: underline;
+ }
+
+ .btn {
+     padding: 5px 10px;
+
+     background-color: #189A18FF;
+     border: 1px solid #095709;
+     color: #fff;
+ }
+
+ .btn:focus {
+     outline: none;
+ }
+
+ .btn:hover,
+.btn:focus {
+    background-color: #095709;
+    cursor: pointer;
+}
+
+ .btn:active {
+     background-color: #023102;
+ }
+
+ .btn:disabled {
+     background-color: #444;
+     color: #212121;
+     cursor: not-allowed;;
+     border: 1px solid #444;
+ }
 
 
