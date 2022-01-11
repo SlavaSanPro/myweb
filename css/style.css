@@ -258,5 +258,48 @@ ol {
 
 }
 
+/* pseudo */
+
+.pseudo-title {
+    margin: 0;
+    position: relative;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+ .pseudo-title:before {
+     content: "";
+     display: block;
+     margin-left: -35px;
+     width: 70px;
+     height: 3px;
+
+     background-color: #e11d4b;
+     position: absolute;
+     bottom: -5px;
+     left: 50%;
+
+ }
+
+ .pseudo-title:after {
+     content: "";
+     display: block;
+     margin: 5px auto;
+     width: 70px;
+     height: 3px;
+
+     background-color: #074d98;
+ }
+
+ .pseudo-text p:first-letter {
+     font-size: 25px;
+ }
+
+ .pseudo-text p:first-line {
+     color: #d6200f;
+ }
+
+
 
 
