@@ -9,6 +9,12 @@
      background-size: 200px 200px;
 }
 
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+ }
+
 .title {
     font-family: Tahoma, sans-serif;
     text-align: center;
@@ -139,18 +145,19 @@ ol {
      background-color: #7ee1e1;
  }
 
- .textarea {
+ .form-textarea {
      width: 200px;
      height: 150px;
      padding: 5px;
 
      border: 1px solid #000;
      outline: red dotted 5px;
+     resize: vertical;
 
      font: bold italic 15px Arial, sans-serif;
  }
 
- .textarea:focus {
+ .form-textarea:focus {
      outline: none;
 
      background-color: #7ee1e1;
@@ -175,6 +182,8 @@ ol {
      background-color: #189A18FF;
      border: 1px solid #095709;
      color: #fff;
+
+     transition: background 0.2s linear, border-color 0.2s linear;
  }
 
  .btn:focus {
@@ -182,10 +191,11 @@ ol {
  }
 
  .btn:hover,
-.btn:focus {
-    background-color: #095709;
-    cursor: pointer;
-}
+ .btn:focus {
+     background-color: #9ea40e;
+     border-color: #c29a4d;
+     cursor: pointer;
+ }
 
  .btn:active {
      background-color: #023102;
@@ -300,6 +310,24 @@ ol {
      color: #d6200f;
  }
 
+/* css3 */
+
+ .element {
+     width: 400px;
+     height: 400px;
+     margin: 20px auto;
+     padding: 20px;
 
 
+     background-color: #ccc;
+     /* border-radius: 20% 20% 30% 40% / 30% 30% 40% 50%;*/
+     border-radius: 20px;
+     box-shadow: -5px 5px 5px #b0a3a3 inset, -10px 5px 20px #f3efef;
+     opacity: 0.5;
+ }
 
+.element-title {
+    margin: 0;
+
+    text-shadow: 1px 1px 2px #000, 2px 2px 5px #d6200f;
+}
