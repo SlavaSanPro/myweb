@@ -1,7 +1,25 @@
- body {
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro-Black.woff") format("woff");
+    font-weight: 700px;
+}
+
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro-BlackItalic.woff") format("woff");
+    font-style: italic;
+}
+
+
+body {
      margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
+     font-family: 'GothamPro', sans-serif;
+     font-size: 15px;
      line-height: 1.5;
      color: #333;
 
@@ -16,7 +34,6 @@
  }
 
 .title {
-    font-family: Tahoma, sans-serif;
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px;
